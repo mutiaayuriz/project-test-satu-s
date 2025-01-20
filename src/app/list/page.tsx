@@ -29,7 +29,7 @@ export function SatuSehatList() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(
-        "https://run.mocky.io/v3/56acb466-3607-4639-ab50-50595e7d82c0"
+        "https://run.mocky.io/v3/3fef2f62-542b-47ca-bf82-a0bb17325b4c"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
